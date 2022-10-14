@@ -1,0 +1,9 @@
+import operaciones as o
+
+a = 15
+b = 4
+
+print("La suma de "+str(a)+" y "+str(b)+" es: "+str(o.suma(a,b)))
+print("La resta de "+str(a)+" y "+str(b)+" es: "+str(o.resta(a,b)))
+print("La multiplicación de "+str(a)+" y "+str(b)+" es: "+str(o.multiplicacion(a,b)))
+print("La división de "+str(a)+" y "+str(b)+" es: "+str(o.division(a,b)))
